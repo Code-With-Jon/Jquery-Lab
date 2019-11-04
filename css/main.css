@@ -1,0 +1,61 @@
+body{
+    margin: 0 auto;
+}
+main {
+    margin-top: 100px;
+    display: grid;
+    align-items: center;
+    /* margin: 0 auto; */
+    grid-template-columns: 10% auto 100px 10%;
+    width: 80vw; 
+    text-align: center;
+    grid-template-rows: 60px 60px auto;
+    grid-gap: 10px;
+}
+#addSkill {
+    background-color: white;
+    border: 5px solid #90C17f;
+    color: #90C17f;
+    height: 50px;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    
+}
+
+.container{
+    display:flex;
+    flex-direction: column-reverse;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+input {
+    border: 5px solid #90C17f;
+    height: 50px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.jumbotron {
+    background-color: #90C17f;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    color: white;
+    height: 60px;
+    line-height: 15%;
+}
+
+
+
+
+#skill-Item{
+   text-align: left;
+   grid-row: 4/4;
+    grid-column: 2 / 4;
+    color: #ffa336;
+    padding-top: 10px;
+}
